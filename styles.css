@@ -1,0 +1,160 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px whitesmoke;
+    padding: 10px;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+    align-items: flex-end;
+}
+nav ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul a:hover {
+    border: 1px solid black;
+}
+
+.brand-title {
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home {
+    margin-left: 55em;
+}
+
+.intro {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 40%;
+    position: absolute;
+}
+
+#js {
+    color: yellow;
+    background-color: black;
+}
+
+#css {
+    color: white;
+    background-color: blue;
+}
+
+#html {
+    color: orange;
+    background-color: white;
+}
+
+.skills a {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.skills {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 40%;
+}
+
+#risco {
+    width: 20%;
+    height: 300px;
+    margin-left: 60%;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+    #risco {
+        width: 230px;
+        height: 250px;
+        margin-left: 50%;
+        margin-top: 50px;
+        border-radius: 50%;
+    }
+
+    .intro {
+        margin-top: 100px;
+        margin-left: 5%;
+        margin-right: 52%;
+        position: absolute;
+    }
+
+    .skills {
+        position: absolute;
+        margin-top: 310px;
+        margin-left: 20%;
+    }
+
+    .brand-title {
+        margin-left: 10px;
+    }
+    
+    .home {
+        margin-left: 15em;
+    }
+}
+
+footer {
+    background-color: rgba(245, 245, 245, 0.667);
+    margin-top: 100px;
+    padding: 17px;
+}
+
+.social {
+    text-align: center;
+    padding: 10px;
+}
+
+.social a {
+    font-size: 25px;
+    color: inherit;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    
+}
+
+.social a:hover {
+    border-radius: 30%;
+    border:1.5px solid black;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer ul a li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
